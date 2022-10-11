@@ -11,4 +11,4 @@ with sr.Microphone() as source:
     # text = r.recognize_google(audio_data, language="es-ES")
     text = r.recognize_google(audio_data, language='en-IN', show_all=True)
     print("I thinks you said '" + r.recognize_google(audio_data) + "'")
-    print(text)
+    print(text) 
